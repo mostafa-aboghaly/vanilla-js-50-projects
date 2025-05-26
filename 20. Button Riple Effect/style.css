@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #000;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.ripple {
+  position: relative;
+  padding: 20px 40px;
+  background-color: purple;
+  border: 0;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 2px;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+.ripple:focus {
+  outline: 0;
+}
+.ripple .ripple-circle {
+  position: absolute;
+  background-color: #fff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  animation: scale 0.4s ease-out;
+  transform: translate(-50%, -50%) scale(0);
+}
+@keyframes scale {
+  to {
+    transform: translate(-50%, -50%) scale(3);
+    opacity: 0;
+  }
+}
