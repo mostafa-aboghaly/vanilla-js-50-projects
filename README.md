@@ -2,7 +2,7 @@
 
 This repository contains 50 mini JavaScript projects built with **HTML**, **CSS**, and **Vanilla JavaScript**.
 
-These projects were part of my learning journey to strengthen my skills in DOM manipulation, events, functions, and UI building. Some were built by following online tutorials and courses, while others were modified or created from scratch as personal challenges.
+These projects were part of my learning journey to strengthen my skills in DOM manipulation, events, functions, and UI building. Most were built by following online tutorials and courses.
 
 ---
 
